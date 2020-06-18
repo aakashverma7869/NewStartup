@@ -519,6 +519,7 @@ header-section{
 @media only screen and (max-width:768px){
     .nav-item{
         text-align: center ;
+        /* width: 100%; */
     }
     .carousel-inner{
         padding:40px;
@@ -545,6 +546,7 @@ header-section{
     .nav-div{
         text-align: left;
         padding: 50px 0;
+        /* width: 100%; */
     }
 
     .aboutButton{
@@ -559,8 +561,14 @@ header-section{
 }
 
 @media only screen and (max-width:850px){
-
-    
+    #hdr {
+        color: black;
+        font-size: 3rem;
+    }
+    #ahdr
+    {
+        font-size: 0.1rem;
+    }
     .offers{
         flex-direction: column;
     }
@@ -576,7 +584,15 @@ header-section{
 
 
 @media only screen and (max-width:1500px){
-
+    #hdr{
+        color: black;
+        display: flex;
+        flex-direction: column
+    }
+    #ahdr
+    {
+        font-size: 0.8rem;
+    }
 .card{
     height: 33rem;
 }

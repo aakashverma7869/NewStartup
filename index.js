@@ -108,7 +108,7 @@ app.post('/contact',function(req,res){
 
     var mailOptions = {
         from: req.body.email,
-        to : '1ayushgoyal007@gmail.com',
+        to : 'aakashverma7869@gmail.com',
         subject: req.body.subject,
         text: req.body.message
     };
